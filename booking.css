@@ -1,0 +1,13 @@
+.login-box
+{
+    position: absolute;;
+    left:30%;
+    top:2%;
+    margin-top: 90px;;
+    width:50%;
+    height:65%;
+    background-image: url("6.jpg");
+    border:5pt rgb(12, 12, 12);
+   background-repeat: no-repeat;
+   text-align: center;
+}

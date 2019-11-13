@@ -1,0 +1,41 @@
+body
+{
+    background-image:url(church.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div1
+{
+    font-size: 50px;
+    font-family: monospace;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:skyblue;
+  opacity:0.5; 
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: indianred;
+}
+.active {
+  background-color: #4CAF50;
+}
+.div3
+{
+    position:absolute;
+    left:1200;
+    right:0;
+}

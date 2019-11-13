@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Register form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="booking.css">
+    <script>
+function validation()
+{
+var name=document.getElementById("txt1");
+var nm=/^[a-zA-Z\s]+$/;
+var email = document.getElementById("e1");
+var pat=/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,4}$/;
+var n6=document.getElementById("p1");
+var ps=/(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{6,}/;
+var ph =document.getElementById("txt4");
+var phone =/^[0-9]{10}$/;
+var n7=document.getElementById("p2")
+if(!name.value.match(nm))
+   {
+alert("Please enter valid name");
+      name.focus();
+return false;
+   }
+if(!email.value.match(pat))
+   {
+alert("Please enter valid email");
+      email.focus();
+return false;
+   }
+
+    if(!ph.value.match(phone))
+   {
+  alert("enter valid phone number");
+	    ph.focus();
+       return false;
+   }
+if(!n6.value.match(ps))
+   {
+  alert("enter valid password");
+	   n6.focus();
+       return false;
+   }
+
+    if(!n7.value.match(ps))
+   {
+  alert("enter valid confirm password");
+	   n7.focus();
+       return false;
+   }
+    
+   if(n6.value != n7.value) 
+       {
+        alert("passwords dont match");
+       return false;
+       }
+}
+ 
+  $(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<style>
+#n1
+{
+  color: aliceblue;
+}
+</style>
+</head>
+<body >
+  
+    <div class="login-box">
+    <div class="avatar">
+      
+    <h1 style="color:red;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 50px;">Register Here</h1>
+            <form action="index.html" onsubmit="return validation()">
+            <p id="n1">Name</p>
+            <input type="text" name="n1" id="txt1"  placeholder="Enter Name" required>
+            <p id="n1">Email</p>
+            <input type="text" data-toggle="tooltip" title="eg:abc@gmail.com" data-placement="right" name="emailaddres" id="e1"  placeholder="Enter Email" required>
+            <p id="n1">Phone</p>
+            <input type="text" name="Phone number" id="txt4"  placeholder="Enter Phone number" required>
+            <p id="n1">Password</p>
+            <input type="password" data-toggle="tooltip" title="Password must contain atleast a captial letter,small letter,special characters and number" data-placement="right" name="password" id="p1" placeholder="Enter Password" required>
+            <p id="n1">Confirm Password</p>
+            <input type="password" data-toggle="tooltip" title="Password must contain atleast a captial letter,small letter,special characters and number" data-placement="right" id="p2"name="password" placeholder="Re-enter Password" required>
+            
+            <br><br><input type="submit" value="Registration"></div>
+           
+	</form>
+    
+</body>
+</html>

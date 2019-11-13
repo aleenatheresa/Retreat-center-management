@@ -1,0 +1,310 @@
+
+
+#bid
+{
+
+   
+ background:url("slide2.jpg");
+ filter: grayscale(100px);
+ background-position: top;
+ background-repeat:no-repeat;
+ background-size: auto;
+ background-attachment: fixed;
+ background-size: cover;
+ height:100%;
+ width:100%;
+ border: 2px solid black;
+ padding:100px 100px;
+}
+.h
+{
+
+text-shadow:3px 2px ;
+color:black;
+text-decoration-style: dashed;
+text-align: center;
+
+font-size: 50px;
+background-attachment: fixed;
+height:20%;
+}
+.d1
+{
+    height: auto;
+    width: fit-content;
+    margin-left: 200px;
+    background-color: rgb(145, 112, 51);
+    padding-block: center;
+    text-align: center;
+    text-indent: 10px;
+    
+}
+
+
+
+
+#bid2
+{
+ background:url("8.jpg");
+ padding:150px 100px;
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:cover;
+ background-attachment: fixed;
+ 
+ 
+}
+.signuptable
+{
+  border: 2px solid ridge;
+  padding: 16px;
+  padding-left: 5px; 
+  width: 300px;
+  column-gap: 20px;
+}
+
+.container
+{
+    
+    
+    padding-left: 60px;
+    width: fit-content;
+    height: 50%;
+    margin-top: 50px;
+    margin-left: 20%;
+    background-color: rgb(185, 55, 55);
+    border:2pt saddlebrown;
+}
+
+.logindiv
+{
+    background-image: url("6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width:100%;
+    
+}
+
+.prd1
+{
+    
+   
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font: outline;
+    font: bold;
+    font-style: normal;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formdiv1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px 500px;
+}
+
+.prd2
+{
+    background-color: white;
+    opacity: .8;
+    padding: 10px 10px;
+    height:auto;
+    width:30%;
+    position: absolute;
+    top:35%;
+    left:35%;
+    border: 2px solid black;
+}
+.prd3
+{
+    background-color: white;
+    opacity: .8;
+    padding: 10px 20px;
+    height:auto;
+    width:25%;
+    position: absolute;
+    top:30%;
+    left:40%;
+    border: 2px solid black;
+}
+.pr
+{
+    background-color: black;
+    padding: 10px 20px;
+    opacity:.8;
+    height:auto;
+    width:40%;
+}
+
+.pr1
+{
+
+    color:black;
+    font-size:20px;
+}
+.bgd
+{
+    background-image: url("HolySpirit.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+    height: 100%;
+    width:100%;
+
+}
+.bgd1
+{
+    background-image: url("2.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity:.5;
+    height: 100%;
+    width:100%;
+
+}
+.bg1
+{
+    background-image: url("HolySpirit.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    height: 100%;
+    width:100%;
+}
+.home
+{
+    border: 2px solid black;
+    width:100%;
+    height:auto;
+    position: absolute;
+    top:60%;
+    background-size: cover;
+    backface-visibility: visible;
+    
+}
+.homediv
+{
+    background-image: url("hs.jpg");
+    
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:80%;
+}
+.rtdetails
+{
+    background-image: url("church.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    
+}
+.div1
+{
+    font-size: 50px;
+    font-family: monospace;
+}
+ul
+{
+   
+    font-size: 25px;
+    
+    
+    
+    
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: indianred;
+}
+.active {
+  background-color: #4CAF50;
+}
+.div3
+{
+    position:absolute;
+    left:1200;
+    right:0;
+}
+.homeheader
+{
+    text-align:center;
+    height:30%;
+    text-decoration-style: solid;
+    
+}
+.icondiv
+{
+    
+    width:40%;
+    height:100%;
+    background-position: left;
+    background-repeat: no-repeat;
+   
+}
+.gallary
+{
+    margin: 5px;
+    border: 1px solid #ccc;
+  
+  width: 50%;
+  position: absolute;
+  left:20%;
+}
+.homebottom
+{
+    width:100%;
+    height:50%;
+    text-indent: 10px;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+#hb
+{
+    color: blanchedalmond;
+    position: absolute;
+    left:20%;
+}
+.iconposition
+{
+    position:absolute;
+    left:50%;
+    top:2%;
+}
+.user
+{
+    background-image: url("user2.jfif");
+    width:auto;
+    height:100%;
+    background-position: center;
+    
+
+}
